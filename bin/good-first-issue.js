@@ -54,7 +54,7 @@ cli
         process.exitCode = 0
       }
     } catch (err) {
-      console.error(err)
+      console.log(chalk.red('Oops! We encountered an issue while searching. Please check your network connection.'))
       process.exitCode = 1
     }
   })
