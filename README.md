@@ -129,21 +129,22 @@ The table of projects which are _currently_ supported.
 |32.|React Native|`react-native`|A framework for building native apps with React.|
 |33.|React Navigation|`react-navigation`|Routing and navigation for your React Native apps.|
 |34.|Rebus|`rebus`|Take your first steps as an open source contributor |
-|35.|RichTextView|`richtextview`|iOS text view (UIView) that properly displays LaTeX, HTML, Markdown, and YouTube/Vimeo links|
-|36.|scikit-learn|`scikit-learn`|scikit-learn: machine learning in Python|
-|37.|Scrapy|`scrapy`|A fast high-level web crawling & scraping framework for Python.|
-|38.|Spring Cloud GCP|`spring-cloud-gcp`|Integration for Google Cloud Platform APIs with Spring|
-|39.|Strapi|`strapi`|Open source Node.js Headless CMS to easily build customisable APIs.|
-|40.|Storybook|`storybook`|Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.|
-|41.|Styled Components|`styled-components`|Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.|
-|42.|TypeScript|`typescript`|TypeScript is a superset of JavaScript that compiles to clean JavaScript output.|
-|43.|VS Code|`vscode`|VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.|
-|44.|webpack CLI|`webpack-cli`|webpack CLI provides a flexible set of commands for developers to increase speed when setting up a custom webpack project.|
-|45.|wolkenkit|`wolkenkit`|wolkenkit is an open-source CQRS and event-sourcing framework for JavaScript and Node.js that perfectly matches DDD. |
-|46.|Verdaccio|`verdaccio`|A lightweight private npm proxy registry|
-|47.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
-|48.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
-|49.|Yarn Version Manager|`yvm`|YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions.|
+|35.|Redux-ORM|`redux-orm`|A small, simple and immutable ORM to manage relational data in your Redux store.|
+|36.|RichTextView|`richtextview`|iOS text view (UIView) that properly displays LaTeX, HTML, Markdown, and YouTube/Vimeo links|
+|37.|scikit-learn|`scikit-learn`|scikit-learn: machine learning in Python|
+|38.|Scrapy|`scrapy`|A fast high-level web crawling & scraping framework for Python.|
+|39.|Spring Cloud GCP|`spring-cloud-gcp`|Integration for Google Cloud Platform APIs with Spring|
+|40.|Strapi|`strapi`|Open source Node.js Headless CMS to easily build customisable APIs.|
+|41.|Storybook|`storybook`|Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.|
+|42.|Styled Components|`styled-components`|Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.|
+|43.|TypeScript|`typescript`|TypeScript is a superset of JavaScript that compiles to clean JavaScript output.|
+|44.|VS Code|`vscode`|VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.|
+|45.|webpack CLI|`webpack-cli`|webpack CLI provides a flexible set of commands for developers to increase speed when setting up a custom webpack project.|
+|46.|wolkenkit|`wolkenkit`|wolkenkit is an open-source CQRS and event-sourcing framework for JavaScript and Node.js that perfectly matches DDD. |
+|47.|Verdaccio|`verdaccio`|A lightweight private npm proxy registry|
+|48.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
+|49.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
+|50.|Yarn Version Manager|`yvm`|YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions.|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

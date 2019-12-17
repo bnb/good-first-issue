@@ -169,6 +169,11 @@
     "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open",
     "description": "Take your first steps as an open source contributor "
   },
+  "redux-orm": {
+    "name": "Redux-ORM",
+    "q": "repo:redux-orm/redux-orm is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description": "A small, simple and immutable ORM to manage relational data in your Redux store."
+  },
   "richtextview": {
     "name": "RichTextView",
     "q": "repo:tophat/richtextview is:issue is:open label:\"good first issue\"",
