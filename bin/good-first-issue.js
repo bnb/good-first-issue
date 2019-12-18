@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+require('buggin')(module)
 const cli = require('commander')
 const chalk = require('chalk')
 const opn = require('open')
@@ -54,8 +55,16 @@ cli
         process.exitCode = 0
       }
     } catch (err) {
-      console.error(err)
-      process.exitCode = 1
+      if (err && typeof err === 'object') {
+        if (/ENOTFOUND/.test(err.message)) {
+          process.exitCode = 1
+          return console.error(`${chalk.red('Problem!')} Unable to find api.github.com.\nPlease check your network connection and/or DNS configuration.`)
+        }
+        // add more cases here as they come up, and present user-friendly messages
+      }
+
+      // let buggin handle it if it's anything else
+      throw err
     }
   })
   .parse(process.argv)
