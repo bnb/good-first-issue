@@ -2,17 +2,17 @@
 
 const cli = require('commander')
 const chalk = require('chalk')
-const opn = require('open')
+const open = require('open')
 const gfi = require('libgfi')
 
-const packageJSON = require('../package.json')
+const { description, version } = require('../package.json')
 const log = require('../lib/log')
 const prompt = require('../lib/prompt')
 const projects = require('../data/projects.json')
 
 cli
-  .version(packageJSON.version, '-v, --version')
-  .description(packageJSON.description)
+  .version(version, '-v, --version')
+  .description(description)
   .arguments('[project]')
   .option('-o, --open', 'Open in browser')
   .option('-f, --first', 'Return first/top issue')
@@ -50,7 +50,7 @@ cli
       console.log(output.toString())
 
       if (cmd.open) {
-        opn(issues[key].url)
+        open(issues[key].url)
         process.exitCode = 0
       }
     } catch (err) {

@@ -49,12 +49,11 @@ function getProjectsFromReadme() {
         startOfClosingTagIndex)
 
     const regex = /\d+\.\|(.*)\|`(.*)`\|/gm;
-    var match = regex.exec(table)
+    let match = regex.exec(table)
 
     const projects = {};
     while (match != null) {
-        let project = match[2]
-        let name = match[1]
+        const [, name, project] = match
         projects[project] = { name }
 
         match = regex.exec(table)
