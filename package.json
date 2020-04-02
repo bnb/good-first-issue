@@ -51,7 +51,7 @@
   ],
   "dependencies": {
     "boxen": "^4.2.0",
-    "chalk": "^3.0.0",
+    "chalk": "^4.0.0",
     "commander": "^4.0.1",
     "inquirer": "^7.0.0",
     "libgfi": "^1.1.1",
