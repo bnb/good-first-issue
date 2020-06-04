@@ -21,7 +21,7 @@
   },
   "docusaurus": {
     "name": "Docusaurus",
-    "q": "org:facebook is:issue is:open label:\"good first issue\"",
+    "q": "repo:facebook/docusaurus is:issue is:open label:\"good first issue\"",
     "description": "Easy to maintain open source documentation websites. "
   },
   "docz": {
