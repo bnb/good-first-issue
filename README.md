@@ -141,9 +141,10 @@ The table of projects which are _currently_ supported.
 |44.|webpack CLI|`webpack-cli`|webpack CLI provides a flexible set of commands for developers to increase speed when setting up a custom webpack project.|
 |45.|wolkenkit|`wolkenkit`|wolkenkit is an open-source CQRS and event-sourcing framework for JavaScript and Node.js that perfectly matches DDD. |
 |46.|Verdaccio|`verdaccio`|A lightweight private npm proxy registry|
-|47.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
-|48.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
-|49.|Yarn Version Manager|`yvm`|YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions.|
+|47.|vest|`vest`|Javascript validations framework inspired by unit testing frameworks.|
+|48.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
+|49.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
+|50.|Yarn Version Manager|`yvm`|YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions.|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

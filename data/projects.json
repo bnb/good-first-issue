@@ -229,6 +229,11 @@
     "q": "org:verdaccio is:issue is:open sort:updated-desc label:\"good first issue\"",
     "description": "A lightweight private npm proxy registry"
   },
+  "vest": {
+    "name": "vest",
+    "q": "user:ealush repo:vest label:\"good first issue\" state:open",
+    "description": "Javascript validations framework inspired by unit testing frameworks."
+  },
   "vuejs": {
     "name": "Vue.js",
     "q": "org:vuejs is:issue is:open label:\"good first issue\"",
