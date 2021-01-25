@@ -1,4 +1,9 @@
 {
+  "angular": {
+    "name": "Angular",
+    "q": "org:angular is:issue is:open label:\"good first issue\"",
+    "description": "Angular is a development platform for building mobile and desktop web applications using Typescript/JavaScript and other languages."
+  },
   "apollo": {
     "name": "Apollo",
     "q": "org:apollographql is:issue is:open label:\"good first issue\"",
@@ -18,6 +23,11 @@
     "name": "Firefox Debugger",
     "q": "repo:firefox-devtools/debugger is:issue is:open label:\":wave:  good first issue\"",
     "description": "The Firefox debugger that works anywhere."
+  },
+  "deno": {
+    "name": "Deno",
+    "q": "repo:denoland/deno is:issue is:open label:\"good first issue\"",
+    "description": "Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust."
   },
   "docusaurus": {
     "name": "Docusaurus",
